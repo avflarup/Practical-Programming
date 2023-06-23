@@ -1,0 +1,7 @@
+sqrt(-1) = 6.12e-17+-1i. Should be +-i. Is close
+sqrt(i) = 0.707+0.707i. Should be 1/sqrt(2) + i/sqrt(2). Is close
+e^i = 0.54+0.841i. Should be 0.54 + 0.84i. Is close
+e^(i pi) = -1+1.22e-16i. Should be -1. Is close
+i^i = 0.208+0i. Should be 0.208. Is close
+ln(i) = 0+1.57i. Should be i pi /2. Is close
+sin(i pi) = 0+11.5i. Should be 11.55i. Is close

@@ -15,5 +15,9 @@ class math{
 		Console.WriteLine($"gamma(2) = {sfuns.gamma(2.0)}");
 		Console.WriteLine($"gamma(3) = {sfuns.gamma(3.0)}");
 		Console.WriteLine($"gamma(10) = {sfuns.gamma(10.0)}");
+
+		Console.WriteLine($"lngamma(-1) = {sfuns.lngamma(-1.0)}");
+		Console.WriteLine($"lngamma(1) = {sfuns.lngamma(1.0)}");
+		Console.WriteLine($"lngamma(10) = {sfuns.lngamma(10.0)}");
 	}
 }

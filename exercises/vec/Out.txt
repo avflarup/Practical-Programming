@@ -1,0 +1,16 @@
+u  =1 2 3
+v  =2 3 4
+u+v=3 5 7
+2*u=2 4 6
+u*2=2 4 6
+w2=11 16 21
+-u=-1 -2 -3
+u%v      = 20
+u.dot(v) = 20
+norm of v = 5.3851648071345
+norm of u = 3.74165738677394
+v x u = 1 -2 1
+v approx u = False
+vec1 = 5 5 -1E-17
+vec2 = 5 5 0
+vec1 approx vec2 = True

@@ -1,0 +1,16 @@
+Part 1:
+my max int = 2147483647
+max int = 2147483647
+my min int = -2147483648
+min int = -2147483648
+Part 2:
+Double machine epsilon = 2.22044604925031E-16
+Should be 2.22044604925031E-16
+Float machine epsilon = 1.192093E-07
+Should be 1.19209289550781E-07
+Part 3:
+sumA-1 = 0.000000e+000 should be 1.110223e-010
+sumB-1 = 1.110223e-010 should be 1.110223e-010
+This differ because tiny is less than the machine epsilon. Therefore if we add tiny to 1, it will still be 1 since there is no floating point number representation for it
+Part 4:
+Does 0.1+0.1+0.1+0.1+0.1+0.1+0.1+0.1 == 8*0.1 now? => True
