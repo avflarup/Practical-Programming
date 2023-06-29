@@ -9,3 +9,4 @@ set grid
 set title "ODE function"
 plot "val.txt" using 1:2 with lines lc "black" title "sin(x)" \
 
+

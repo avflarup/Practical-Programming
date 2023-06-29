@@ -1,7 +1,7 @@
-DIR = ../../matlib/matrix
+DIR = ../matlib/matrix
 DLLS = $(addprefix -reference:,$(filter %.dll,$^))
 
-all : Out.txt Sin.svg Harm.svg
+all : Out.txt Sin.svg 
 
 Out.txt : main.exe
 	mono $< > $@
@@ -9,21 +9,19 @@ Out.txt : main.exe
 Sin.svg : sin.gpi
 	gnuplot $<
 
-Harm.svg : harm.gpi
-	gnuplot $<
-
-main.exe : main.cs matrix.dll ode.dll genlist.dll
+main.exe : main.cs matrix.dll ode2.dll genlist.dll
 	mcs $< $(DLLS)
 
 matrix.dll : $(DIR)/matrix.cs $(DIR)/vector.cs
 	mcs -target:library -out:./$@ $^
 
-ode.dll : ode.cs matrix.dll genlist.dll
+ode2.dll : ode2.cs matrix.dll genlist.dll
 	mcs -target:library -out:./$@ $< $(DLLS)
 
-genlist.dll : ../../exercises/generic_list/genlist.cs
+genlist.dll : ../exercises/generic_list/genlist.cs
 	mcs -target:library -out:./$@ $^
 
 clean : 
 	rm -f *.exe *.dll *.txt *.svg
+
 
