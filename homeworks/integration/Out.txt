@@ -1,0 +1,4 @@
+Integral of sqrt(x) = 0.666953909054655. Should be 2/3. Is close
+Integral of 1/sqrt(x) = 1.99996150007805. Should be 2. Is close
+Integral of 4 sqrt(1-x^2) = 3.14183457802727. Should be Pi. Is close
+Integral of ln(x)/sqrt(x) = -3.99991705899915. Should be -4. Is close

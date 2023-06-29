@@ -1,0 +1,14 @@
+set terminal svg background "white"
+set key left
+set xlabel "xs "
+set ylabel "ys"
+set tics out
+set title "Linear Spline"
+set output "Lspline.svg"
+
+f(x) = cos(x)
+
+plot "data.txt" using 1:2 with point pt 10 lc "red" title "Table values", \
+"data.txt" using 3:4 with point pt 10 lc "blue" title "Interpolated values", \
+"data.txt" using 3:5 with lines ls 10 lc "black" title "Integral", \
+f(x) title "cos(x)" with lines ls 10 lc "green"

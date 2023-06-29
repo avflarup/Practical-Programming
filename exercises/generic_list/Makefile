@@ -10,4 +10,4 @@ genlist.dll : genlist.cs
 	mcs -target:library -out:$@ $<
 
 clean:
-	$(RM) *.exe *.dll [Oo]ut* log*
+	rm -f *.exe *.dll [Oo]ut* log*

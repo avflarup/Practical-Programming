@@ -1,0 +1,7 @@
+The fitted data can be seen in Fit.svg.
+The fitted T_1/2 is 4.08004641904341
+The known T_1/2 of Ra-224 is 3.63 d. The fitted value is not close
+hjg
+    0.0228     0.0159          0          0          0          0          0          0          0 
+   0.00303    0.00163          0          0          0          0          0          0          0 
+The uncertainty on the fitted value is 0.00162696112757598 so todays value does not lie within the uncertainties.

@@ -1,0 +1,1 @@
+A graph of u'' = -u with u(0)=0, u'(0)=1 csn be seen on Sin.svg

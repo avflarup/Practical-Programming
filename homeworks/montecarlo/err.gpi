@@ -1,0 +1,16 @@
+set terminal svg
+set terminal svg background "white"
+set output "Err.svg"
+set key top right
+set xlabel "N"
+set ylabel "Error"
+set tics out
+set grid
+set title "Error of area of circle"
+
+f(x) = 1/sqrt(x)
+
+plot "err.txt" using 1:2 with points lc "blue" ps 0.6 pointtype 7  title "Estimated error", \
+"err.txt" using 1:3 with points lc "red" pointtype 1 title "Actual error", \
+f(x) title "1/sqrt(x)" with lines ls 10 lc "black"
+

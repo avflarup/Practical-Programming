@@ -1,0 +1,1 @@
+A plot of cos(x) with values from table as well as the interpolated values can be seen on Lspline.svg

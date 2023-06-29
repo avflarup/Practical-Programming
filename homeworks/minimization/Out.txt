@@ -1,0 +1,18 @@
+Rosenbrock's valley function
+start point:         3          3 
+nsteps=41  ncalls=217
+minimum    :         1          1 
+f(x_min)          = 2.152495E-11
+Theoretical minimum: 1, 1
+|gradient| goal   = 0.0001
+|gradient| actual = 1.952789E-05
+test passed
+
+Himmelblau's function
+start point:         5          3 
+nsteps=10  ncalls=55
+minimum    :     -2.81       3.13 
+f(x_min)          = 2.64719E-12
+|gradient| goal   = 0.0001
+|gradient| actual = 1.716315E-05
+test passed

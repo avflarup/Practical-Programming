@@ -1,0 +1,11 @@
+set terminal svg
+set terminal svg background "white"
+set output "Fit.svg"
+set key top right
+set xlabel "t [days]"
+set ylabel "Intensity [counts]"
+set tics out
+set grid
+set title "Radioactive decay of Ra-224"
+plot "data.txt" using 1:2:3 with yerrorbars lc "black" pt 8 ps 0.9 title "Data" \
+, "fit.txt" using 1:2 with lines linecolor "blue" title "Best Fit"
