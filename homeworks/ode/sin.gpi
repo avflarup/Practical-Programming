@@ -1,0 +1,11 @@
+set terminal svg
+set terminal svg background "white"
+set output "Sin.svg"
+set key top right
+set xlabel "x"
+set ylabel "y"
+set tics out
+set grid
+set title "ODE function"
+plot "val.txt" using 1:2 with lines lc "black" title "sin(x)" \
+
