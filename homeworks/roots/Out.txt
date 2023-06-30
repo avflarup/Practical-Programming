@@ -4,7 +4,7 @@ Simple one 2D equation
 Start guess is 1, -1
 Calculated 0.882352941176471, -1.17647058823529
 
-newton:
+newton on Rosenbrock's valley function:
 start point:         7         -7 
 nsteps=4 ncalls=14
 root=         1          1 

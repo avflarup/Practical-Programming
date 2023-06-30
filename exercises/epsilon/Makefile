@@ -4,3 +4,5 @@ Out.txt : main.exe
 main.exe : main.cs
 	mcs $<
 
+clean :
+	rm -f [oO]ut.txt *.exe
