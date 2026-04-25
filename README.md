@@ -1,10 +1,8 @@
-# Practical programming
 
-Repository for the course "Practical Programming and Numerical Methods" at Aarhus University 2023
-
+# Repository for the course "Practical Programming and Numerical Methods" at Aarhus University 2023
 ____________________________________________________________________________
 
-
+# Practical programming
 
  
 | #  | homework      | A | B | C | Σ   |
